@@ -5,4 +5,6 @@ Developed by CodeVARS:
 
 Developers: Sagar Vakkala & Rishabh Singh
 
+Designer: Vidhant Matta
+
 
