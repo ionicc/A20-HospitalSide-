@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.codevars.a20hospitalside"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="24" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.codevars.a20hospitalside.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.codevars.a20hospitalside.PendingVerifications" />
+        <activity android:name="com.codevars.a20hospitalside.AllMembers" />
+        <activity android:name="com.codevars.a20hospitalside.BloodStock" />
+        <activity android:name="com.codevars.a20hospitalside.RequestBlood" />
+        <activity android:name="com.codevars.a20hospitalside.Team" />
+        <activity android:name="com.codevars.a20hospitalside.EmergencyRequest" />
+    </application>
+
+</manifest>
